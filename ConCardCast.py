@@ -33,7 +33,7 @@ elif CardcasterLvl > 2:
 Hand = []
 Cardlist = CardlistWork.CardlistReset(CardcasterLvl)
 
-print(Cardlist)
+print(*Cardlist, sep=", ")
 
 while True:
     HandSize = len(Hand)
